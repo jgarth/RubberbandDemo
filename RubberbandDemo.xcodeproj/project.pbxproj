@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1AAC2AE1954855D0056C838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2AD1954855D0056C838 /* Foundation.framework */; };
+		F1AAC2B01954855D0056C838 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2AF1954855D0056C838 /* CoreGraphics.framework */; };
+		F1AAC2B21954855D0056C838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2B11954855D0056C838 /* UIKit.framework */; };
+		F1AAC2B81954855D0056C838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1AAC2B61954855D0056C838 /* InfoPlist.strings */; };
+		F1AAC2BA1954855D0056C838 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAC2B91954855D0056C838 /* main.m */; };
+		F1AAC2BE1954855D0056C838 /* MTNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAC2BD1954855D0056C838 /* MTNAppDelegate.m */; };
+		F1AAC2C11954855D0056C838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AAC2BF1954855D0056C838 /* Main.storyboard */; };
+		F1AAC2C41954855D0056C838 /* MTNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAC2C31954855D0056C838 /* MTNViewController.m */; };
+		F1AAC2C61954855D0056C838 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AAC2C51954855D0056C838 /* Images.xcassets */; };
+		F1AAC2CD1954855D0056C838 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2CC1954855D0056C838 /* XCTest.framework */; };
+		F1AAC2CE1954855D0056C838 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2AD1954855D0056C838 /* Foundation.framework */; };
+		F1AAC2CF1954855D0056C838 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAC2B11954855D0056C838 /* UIKit.framework */; };
+		F1AAC2D71954855D0056C838 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1AAC2D51954855D0056C838 /* InfoPlist.strings */; };
+		F1AAC2D91954855D0056C838 /* RubberbandDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAC2D81954855D0056C838 /* RubberbandDemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1AAC2D01954855D0056C838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1AAC2A21954855D0056C838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AAC2A91954855D0056C838;
+			remoteInfo = RubberbandDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1AAC2AA1954855D0056C838 /* RubberbandDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RubberbandDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AAC2AD1954855D0056C838 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F1AAC2AF1954855D0056C838 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F1AAC2B11954855D0056C838 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F1AAC2B51954855D0056C838 /* RubberbandDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubberbandDemo-Info.plist"; sourceTree = "<group>"; };
+		F1AAC2B71954855D0056C838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1AAC2B91954855D0056C838 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F1AAC2BB1954855D0056C838 /* RubberbandDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RubberbandDemo-Prefix.pch"; sourceTree = "<group>"; };
+		F1AAC2BC1954855D0056C838 /* MTNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNAppDelegate.h; sourceTree = "<group>"; };
+		F1AAC2BD1954855D0056C838 /* MTNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNAppDelegate.m; sourceTree = "<group>"; };
+		F1AAC2C01954855D0056C838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1AAC2C21954855D0056C838 /* MTNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTNViewController.h; sourceTree = "<group>"; };
+		F1AAC2C31954855D0056C838 /* MTNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTNViewController.m; sourceTree = "<group>"; };
+		F1AAC2C51954855D0056C838 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1AAC2CB1954855D0056C838 /* RubberbandDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RubberbandDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AAC2CC1954855D0056C838 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F1AAC2D41954855D0056C838 /* RubberbandDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RubberbandDemoTests-Info.plist"; sourceTree = "<group>"; };
+		F1AAC2D61954855D0056C838 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F1AAC2D81954855D0056C838 /* RubberbandDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RubberbandDemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AAC2A71954855D0056C838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2B01954855D0056C838 /* CoreGraphics.framework in Frameworks */,
+				F1AAC2B21954855D0056C838 /* UIKit.framework in Frameworks */,
+				F1AAC2AE1954855D0056C838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AAC2C81954855D0056C838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2CD1954855D0056C838 /* XCTest.framework in Frameworks */,
+				F1AAC2CF1954855D0056C838 /* UIKit.framework in Frameworks */,
+				F1AAC2CE1954855D0056C838 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1AAC2A11954855D0056C838 = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2B31954855D0056C838 /* RubberbandDemo */,
+				F1AAC2D21954855D0056C838 /* RubberbandDemoTests */,
+				F1AAC2AC1954855D0056C838 /* Frameworks */,
+				F1AAC2AB1954855D0056C838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AAC2AB1954855D0056C838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2AA1954855D0056C838 /* RubberbandDemo.app */,
+				F1AAC2CB1954855D0056C838 /* RubberbandDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AAC2AC1954855D0056C838 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2AD1954855D0056C838 /* Foundation.framework */,
+				F1AAC2AF1954855D0056C838 /* CoreGraphics.framework */,
+				F1AAC2B11954855D0056C838 /* UIKit.framework */,
+				F1AAC2CC1954855D0056C838 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1AAC2B31954855D0056C838 /* RubberbandDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2BC1954855D0056C838 /* MTNAppDelegate.h */,
+				F1AAC2BD1954855D0056C838 /* MTNAppDelegate.m */,
+				F1AAC2BF1954855D0056C838 /* Main.storyboard */,
+				F1AAC2C21954855D0056C838 /* MTNViewController.h */,
+				F1AAC2C31954855D0056C838 /* MTNViewController.m */,
+				F1AAC2C51954855D0056C838 /* Images.xcassets */,
+				F1AAC2B41954855D0056C838 /* Supporting Files */,
+			);
+			path = RubberbandDemo;
+			sourceTree = "<group>";
+		};
+		F1AAC2B41954855D0056C838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2B51954855D0056C838 /* RubberbandDemo-Info.plist */,
+				F1AAC2B61954855D0056C838 /* InfoPlist.strings */,
+				F1AAC2B91954855D0056C838 /* main.m */,
+				F1AAC2BB1954855D0056C838 /* RubberbandDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1AAC2D21954855D0056C838 /* RubberbandDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2D81954855D0056C838 /* RubberbandDemoTests.m */,
+				F1AAC2D31954855D0056C838 /* Supporting Files */,
+			);
+			path = RubberbandDemoTests;
+			sourceTree = "<group>";
+		};
+		F1AAC2D31954855D0056C838 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAC2D41954855D0056C838 /* RubberbandDemoTests-Info.plist */,
+				F1AAC2D51954855D0056C838 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AAC2A91954855D0056C838 /* RubberbandDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AAC2DC1954855D0056C838 /* Build configuration list for PBXNativeTarget "RubberbandDemo" */;
+			buildPhases = (
+				F1AAC2A61954855D0056C838 /* Sources */,
+				F1AAC2A71954855D0056C838 /* Frameworks */,
+				F1AAC2A81954855D0056C838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RubberbandDemo;
+			productName = RubberbandDemo;
+			productReference = F1AAC2AA1954855D0056C838 /* RubberbandDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1AAC2CA1954855D0056C838 /* RubberbandDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AAC2DF1954855D0056C838 /* Build configuration list for PBXNativeTarget "RubberbandDemoTests" */;
+			buildPhases = (
+				F1AAC2C71954855D0056C838 /* Sources */,
+				F1AAC2C81954855D0056C838 /* Frameworks */,
+				F1AAC2C91954855D0056C838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AAC2D11954855D0056C838 /* PBXTargetDependency */,
+			);
+			name = RubberbandDemoTests;
+			productName = RubberbandDemoTests;
+			productReference = F1AAC2CB1954855D0056C838 /* RubberbandDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AAC2A21954855D0056C838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MTN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Crispy Mountain";
+				TargetAttributes = {
+					F1AAC2CA1954855D0056C838 = {
+						TestTargetID = F1AAC2A91954855D0056C838;
+					};
+				};
+			};
+			buildConfigurationList = F1AAC2A51954855D0056C838 /* Build configuration list for PBXProject "RubberbandDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1AAC2A11954855D0056C838;
+			productRefGroup = F1AAC2AB1954855D0056C838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AAC2A91954855D0056C838 /* RubberbandDemo */,
+				F1AAC2CA1954855D0056C838 /* RubberbandDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AAC2A81954855D0056C838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2C61954855D0056C838 /* Images.xcassets in Resources */,
+				F1AAC2B81954855D0056C838 /* InfoPlist.strings in Resources */,
+				F1AAC2C11954855D0056C838 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AAC2C91954855D0056C838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2D71954855D0056C838 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AAC2A61954855D0056C838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2C41954855D0056C838 /* MTNViewController.m in Sources */,
+				F1AAC2BE1954855D0056C838 /* MTNAppDelegate.m in Sources */,
+				F1AAC2BA1954855D0056C838 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AAC2C71954855D0056C838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AAC2D91954855D0056C838 /* RubberbandDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1AAC2D11954855D0056C838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1AAC2A91954855D0056C838 /* RubberbandDemo */;
+			targetProxy = F1AAC2D01954855D0056C838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1AAC2B61954855D0056C838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AAC2B71954855D0056C838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F1AAC2BF1954855D0056C838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AAC2C01954855D0056C838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1AAC2D51954855D0056C838 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AAC2D61954855D0056C838 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AAC2DA1954855D0056C838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F1AAC2DB1954855D0056C838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AAC2DD1954855D0056C838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberbandDemo/RubberbandDemo-Prefix.pch";
+				INFOPLIST_FILE = "RubberbandDemo/RubberbandDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F1AAC2DE1954855D0056C838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberbandDemo/RubberbandDemo-Prefix.pch";
+				INFOPLIST_FILE = "RubberbandDemo/RubberbandDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F1AAC2E01954855D0056C838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RubberbandDemo.app/RubberbandDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberbandDemo/RubberbandDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RubberbandDemoTests/RubberbandDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F1AAC2E11954855D0056C838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RubberbandDemo.app/RubberbandDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RubberbandDemo/RubberbandDemo-Prefix.pch";
+				INFOPLIST_FILE = "RubberbandDemoTests/RubberbandDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AAC2A51954855D0056C838 /* Build configuration list for PBXProject "RubberbandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AAC2DA1954855D0056C838 /* Debug */,
+				F1AAC2DB1954855D0056C838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AAC2DC1954855D0056C838 /* Build configuration list for PBXNativeTarget "RubberbandDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AAC2DD1954855D0056C838 /* Debug */,
+				F1AAC2DE1954855D0056C838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1AAC2DF1954855D0056C838 /* Build configuration list for PBXNativeTarget "RubberbandDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AAC2E01954855D0056C838 /* Debug */,
+				F1AAC2E11954855D0056C838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1AAC2A21954855D0056C838 /* Project object */;
+}
